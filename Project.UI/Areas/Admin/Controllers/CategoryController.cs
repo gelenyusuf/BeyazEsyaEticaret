@@ -9,6 +9,7 @@ namespace Project.UI.Areas.Admin.Controllers
     [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
+        //Kategoriler
         readonly ICategoryManager _categoryManager;
 
         public CategoryController(ICategoryManager categoryManager)
